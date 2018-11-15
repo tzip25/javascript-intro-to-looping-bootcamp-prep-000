@@ -1,11 +1,11 @@
-var arr = `I am ${i} strange loops.`;
+var str = `I am ${i} strange loops.`;
 
 function forLoop(arr) {
    for (let i = 0; i < 25; i++) {
       if(i === 1) { 
-  console.log(arr.slice(0,19) + arr.slice(20));
+  console.log(str.slice(0,19) + str.slice(20));
       } else {
-        console.log(arr);
+        console.log(str);
   }  
   }
 return arr;
