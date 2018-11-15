@@ -3,7 +3,7 @@ var str = `I am ${i} strange loops.`;
 function forLoop(arr) {
    for (let i = 0; i < 25; i++) {
       if(i === 1) { 
-  console.log("I am 1 strange loop.");
+  console.log(str.slice(0,19) + strangeArray.slice(20));
       } else {
         console.log(str);
   }  
