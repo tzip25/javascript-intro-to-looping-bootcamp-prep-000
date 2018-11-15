@@ -6,7 +6,7 @@ function forLoop(a) {
         return `I am ${i} strange loops.`;
   }  
   }
-return i;
+return a;
 }
 
 
