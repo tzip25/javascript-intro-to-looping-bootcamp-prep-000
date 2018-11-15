@@ -1,7 +1,7 @@
 
 function forLoop(arr) {
- var str = `I am ${i} strange loops.`;
    for (let i = 0; i < 25; i++) {
+    var str = `I am ${i} strange loops.`;
       if(i === 1) { 
   console.log(str.slice(0,19) + str.slice(20));
       } else {
