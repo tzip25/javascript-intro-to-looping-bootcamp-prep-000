@@ -1,4 +1,4 @@
-function forLoop(i) {
+function forLoop(a) {
    for (let i = 0; i < 25; i++) {
       if(i === 1) { 
   return `I am ${i} strange loop.`;
