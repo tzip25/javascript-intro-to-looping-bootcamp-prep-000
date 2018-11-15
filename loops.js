@@ -1,7 +1,7 @@
 function forLoop(arr) {
    for (let i = 0; i < 25; i++) {
       if(i === 1) { 
-  return `I am ${i} strange loop.`;
+  return `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
       } else {
         return `I am ${i} strange loops.`;
   }  
